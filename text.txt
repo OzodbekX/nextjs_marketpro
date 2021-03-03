@@ -1,0 +1,45 @@
+components //
+DefaultInput ./
+DefaultButton ./
+DefaultModal ./
+FlexibleImage ./
+Checkbox ./
+Checkout ./ /s
+Card ./ /s
+ProductCard ./ /s
+ProductGallery ./
+ProductInfo ./
+ProductDesc ./
+ShippingInfo ./ /s
+DeliveryInfo ./ /s
+DeliveryPrice ./ /s
+Order ./ /s
+Payment ./ /s
+Confirmation ./ /s
+Specification ./
+
+containers //
+CheckboxContainer ./
+CardsContainer ./
+ImagesLine ./
+BestOffersAndSalesContainer ./
+SwiperContainer ./
+RecommendationContainer ./
+
+pages //
+Cart /s
+Category /s
+Home /s
+Product /s
+User/Addresses /s
+User/Main /s
+
+package.json
+"autoprefixer": "^10.2.4",
+"postcss": "^8.2.6",
+"tailwindcss": "^2.0.3",
+
+postcss.config.js
+// module.exports = {
+//   plugins: ["tailwindcss", "autoprefixer"],
+// };

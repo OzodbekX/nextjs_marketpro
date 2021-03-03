@@ -1,0 +1,230 @@
+:root {
+  --customPink: #f91155;
+  --customBlue1: #005bff;
+  --customBlue2: #004ed6;
+  --customDarkBlue: #001a34;
+  --customDarkBlue2: #012250;
+  --customOrange: #ff8400;
+  --customViolet: #7d36aa;
+  --customYellow: #fae670;
+  --customGreen: #3ac267;
+  --customGrey: #f2f3f5;
+  --customLightGray: #f2f3f5;
+  --customLightGrayHover: #eaedef;
+  --customGreyText: #808d9a;
+  --customLightBlack: #4d5f71;
+  --searchFilterItBg: #e5efff;
+  --modalBg: #f8f8f8;
+  --customWhite: #edf2f4;
+  --customRed: #f03;
+  --customGr: #99bdff;
+  --customGreyBottom: #d6dbe0;
+  --customSwitcher: #c2eecf;
+  --customBlue4: #292c83;
+}
+
+/* texts */
+
+.text-customPink {
+  color: var(--customPink);
+}
+.text-customBlue1 {
+  color: var(--customBlue1);
+}
+.text-customBlue2 {
+  color: var(--customBlue2);
+}
+.text-customDarkBlue {
+  color: var(--customDarkBlue);
+}
+.text-customDarkBlue2 {
+  color: var(--customDarkBlue2);
+}
+.text-customOrange {
+  color: var(--customOrange);
+}
+.text-customViolet {
+  color: var(--customViolet);
+}
+.text-customYellow {
+  color: var(--customYellow);
+}
+.text-customGreen {
+  color: var(--customGreen);
+}
+.text-customGrey {
+  color: var(--customLightGray);
+}
+.text-customLightGray {
+  color: var(--customLightGray);
+}
+.text-customLightGrayHover {
+  color: var(--customLightGrayHover);
+}
+.text-customGreyText {
+  color: var(--customGreyText);
+}
+.text-customLightBlack {
+  color: var(--customLightBlack);
+}
+.text-searchFilterItBg {
+  color: var(--searchFilterItBg);
+}
+.text-modalBg {
+  color: var(--modalBg);
+}
+.text-customWhite {
+  color: var(--customWhite);
+}
+.text-customRed {
+  color: var(--customRed);
+}
+.text-customGr {
+  color: var(--customGr);
+}
+.text-customGreyBottom {
+  color: var(--customGreyBottom);
+}
+.text-customSwitcher {
+  color: var(--customSwitcher);
+}
+.text-customBlue4 {
+  color: var(--customBlue4);
+}
+
+/* backgrounds */
+
+.bg-customPink {
+  background-color: var(--customPink);
+}
+.bg-customBlue1 {
+  background-color: var(--customBlue1);
+}
+.bg-customBlue2 {
+  background-color: var(--customBlue2);
+}
+.bg-customDarkBlue {
+  background-color: var(--customDarkBlue);
+}
+.bg-customDarkBlue2 {
+  background-color: var(--customDarkBlue2);
+}
+.bg-customOrange {
+  background-color: var(--customOrange);
+}
+.bg-customViolet {
+  background-color: var(--customViolet);
+}
+.bg-customYellow {
+  background-color: var(--customYellow);
+}
+.bg-customGreen {
+  background-color: var(--customGreen);
+}
+.bg-customGrey {
+  background-color: var(--customGrey);
+}
+.bg-customLightGray {
+  background-color: var(--customGrey);
+}
+.bg-customLightGrayHover {
+  background-color: var(--customLightGrayHover);
+}
+.bg-customGreyText {
+  background-color: var(--customGreyText);
+}
+.bg-customLightBlack {
+  background-color: var(--customLightBlack);
+}
+.bg-searchFilterItBg {
+  background-color: var(--modalBg);
+}
+.modalBg {
+  background: var(--modalBg) !important;
+}
+.bg-customWhite {
+  background-color: var(--customWhite);
+}
+.bg-customRed {
+  background-color: var(--customRed);
+}
+.bg-customGr {
+  background-color: var(--customGr);
+}
+.bg-customGreyBottom {
+  background-color: var(--customGreyBottom);
+}
+.bg-customSwitcher {
+  background-color: var(--customSwitcher);
+}
+.bg-customBlue4 {
+  background-color: var(--customBlue4);
+}
+
+/* shadows */
+
+.shadow-catalog {
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2);
+}
+.shadow-all {
+  box-shadow: 0 0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.shadow-errorPanel {
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+/* hover */
+.text-customBlue1-hover:hover {
+  color: var(--customBlue1);
+}
+.text-customBlue2-hover:hover {
+  color: var(--customBlue2);
+}
+
+/* hover-background */
+
+.modalBg-hover:hover {
+  background-color: var(--modalBg);
+}
+.bg-customBlue1-hover:hover {
+  background-color: var(--customBlue1);
+}
+.bg-customBlue2-hover:hover {
+  background-color: var(--customBlue2);
+}
+.bg-customDarkBlue-hover:hover {
+  background-color: var(--customDarkBlue);
+}
+.bg-customDarkBlue2-hover:hover {
+  background-color: var(--customDarkBlue2);
+}
+.bg-customYellow-hover:hover {
+  background-color: var(--customYellow);
+}
+.bg-customGrey-hover:hover {
+  background-color: var(--customGrey);
+}
+.bg-searchFilterItBg-hover:hover {
+  background-color: var(--modalBg);
+}
+
+/* borders */
+
+.border-customBlue1 {
+  border-color: var(--customBlue1);
+}
+.border-customGrey {
+  border-color: var(--customGrey);
+}
+.border-customGreyText {
+  border-color: var(--customGreyText);
+}
+.border-customGr {
+  border-color: var(--customGr);
+}
+.border-customGreyBottom {
+  border-color: var(--customGreyBottom);
+}
+.border-customBlue2 {
+  border-color: var(--customBlue2);
+}
